@@ -1,0 +1,13 @@
+.navi {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.logo-title {
+    text-decoration-line: none;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: blueviolet;
+}

@@ -1,0 +1,13 @@
+.empty_cart_container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.gohome {
+    color: gray;
+    text-decoration-line: underline;
+}
+
+.text_container {
+    margin-left: 60px;
+}

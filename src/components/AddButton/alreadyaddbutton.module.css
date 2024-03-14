@@ -1,0 +1,11 @@
+.add_to_cart {
+    width: 45%;
+    height: 60px;
+    font-size: large;
+    margin-top: 15px;
+    background-color: rgb(120, 122, 136);
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+    border: 1px solid gray;
+}

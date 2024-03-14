@@ -1,0 +1,79 @@
+.section {
+    height: 80vh;
+    margin-top: 30px;
+}
+.detail_product_picture {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.detail_product_text_container {
+    padding-left: 10%;
+}
+
+.detail_product_picture img {
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+.detail_product_buttons {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.add_to_cart {
+    width: 45%;
+    height: 60px;
+    font-size: large;
+    margin-top: 15px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.add_to_cart:hover {
+    background-color: rgb(120, 122, 136);
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.detail_product_container {
+    display: flex;
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around; /* This will center the items */
+    align-items: flex-start; /* This will align items at the start of the container */
+    gap: 20px; /* This adds space between the flex items */
+}
+
+.detail_product_category {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(212, 212, 212);
+    font-size: x-large;
+    font-weight: bolder;
+}
+.detail_product_title {
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.detail_product_description {
+    margin-top: 20px;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+.detail_product_price {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
